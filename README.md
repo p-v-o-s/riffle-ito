@@ -14,7 +14,7 @@ Details:
 - includes circuit for monitoring battery level
 - the board width (18 mm) and height profile (uses right-angle headers) allows device to be inserted through mouth of standard plastic water bottle (one with 20 mm diameter or greater)
 - in typical sampling configurations (every 5 minutes), the Riffle-ito can likely run for several weeks (perhaps months) on 3 AA batteries, especially if batteries with low self-discharging rates (like rechargeable Eneloops) are used
-- Rough estimate of the total cost of parts that could be used to log temperature in a water bottle (not including shipping, the water bottle, or an FTDI cable): $38;  a detailed cost estimate s [here](https://docs.google.com/spreadsheets/d/1v0O8HmP8-q_kPunHILv5Io3zThpqvPBZZoY3aYnxRDc/edit#gid=0)
+- Rough estimate of the total cost of parts that could be used to log temperature in a water bottle (not including shipping, the water bottle, or an FTDI cable): $38;  a detailed cost estimate is [here](https://docs.google.com/spreadsheets/d/1v0O8HmP8-q_kPunHILv5Io3zThpqvPBZZoY3aYnxRDc/edit#gid=0)
 
 ### Usage
 
