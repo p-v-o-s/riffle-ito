@@ -1,7 +1,7 @@
 riffle-ito
 =========
 
-A lower-functionality and higher cost version of the [Riffle](http://publiclab.org/wiki/riffle) water quality sensor design. This version is based on the Atmel328p, and is intended to be compatible with the accessibile and ubiquitous Wiring platform (and, by extension, the Arduino IDE). For a lower-cost, higher-functionalty Riffle that isn't yet compatible with Wiring, please see [here](https://github.com/bgamari/riffle). 
+The RIFFLE-ito is a lower-functionality and higher cost version of the [Riffle](http://publiclab.org/wiki/riffle) water quality sensor. The Riffle-ito is based on the Atmel328p, and is intended to be compatible with the accessibile and ubiquitous Wiring platform (and, by extension, the Arduino IDE). For a lower-cost, higher-functionalty Riffle that isn't yet compatible with Wiring, please see [here](https://github.com/bgamari/riffle). 
 
 The width and height of the Riffle-ito device allows the device to fit through the mouth of a standard commercially produced plastic water bottle (20 mm). By inserting the Riffle-ito into such a bottle, along with a few AA batteries, and connecting a thermistor and other sensors that poke out through the water bottle cap, a very accessible water quality sensor may be constructed. 
 
