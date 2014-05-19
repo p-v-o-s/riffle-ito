@@ -1,9 +1,13 @@
 riffle-ito
 =========
 
-"Riffle in a Bottle"
+'ITO' --> 'initial technical offering'
 
 A lower-functionality and higher cost version of the [Riffle](http://publiclab.org/wiki/riffle) water quality sensor design. This version is based on the Atmel328p, and is intended to be compatible with the accessibile and ubiquitous Wiring platform (and, by extension, the Arduino IDE). For a lower-cost, higher-functionalty Riffle that isn't yet compatible with Wiring, please see [here](https://github.com/bgamari/riffle). 
+
+The form factor of the Riffle-ito is intended to fit through the mouth of a standard commercially produced plastic water bottle (20 mm).  The idea is that by inserting the Riffle-ito into the bottle along with a few AA batteries, and connecting a thermistor and other sensors that poke out through the water bottle cap, a very accessible water quality sensor may be constructed. The total cost of parts for such a device (ordering the electronics in small quantities, from readily available sources via US Post (and likely elsewhere), is approximately 37 to 40 USD; the FTDI cable necessary for programming Riffle-itos (can use one cable to program many Riffle-itos) is another 15 USD.  
+
+![Alt text](https://raw.githubusercontent.com/p-v-o-s/riffle328/master/RiffleInBottle.png "Optional title")
 
 Details:
 
@@ -15,9 +19,4 @@ Details:
 - the board width (18 mm) and height profile (uses right-angle headers) allows device to be inserted through mouth of standard plastic water bottle (one with 20 mm diameter or greater)
 - in typical sampling configurations (every 5 minutes), the Riffle-ito can likely run for several weeks (perhaps months) on 3 AA batteries, especially if batteries with low self-discharging rates (like rechargeable Eneloops) are used
 - Rough estimate of the total cost of parts that could be used to log temperature in a water bottle (not including shipping, the water bottle, or an FTDI cable): $38;  a detailed cost estimate is [here](https://docs.google.com/spreadsheets/d/1v0O8HmP8-q_kPunHILv5Io3zThpqvPBZZoY3aYnxRDc/edit#gid=0)
-
-### Usage
-
-![Alt text](https://raw.githubusercontent.com/p-v-o-s/riffle328/master/RiffleInBottle.png "Optional title")
-
 - For a diagram of pin locations and optional configurations, please see this [diagram in PDF format](https://github.com/p-v-o-s/riffle328/blob/master/riffleUsage.pdf)
