@@ -125,20 +125,17 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
-<wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
-<wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
-<wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="12.5" y1="35.5" x2="12.5" y2="35.3" width="0.01" layer="20" curve="-358.628154"/>
 <wire x1="12.5" y1="35.3" x2="12.5" y2="35.5" width="0.01" layer="20"/>
 <text x="15.9" y="28.9" size="0.6096" layer="21">riffleito-THPL-REVA</text>
-<text x="24.3" y="28.9" size="0.6096" layer="22" rot="MR0">SDA</text>
-<text x="21.8" y="28.6" size="0.6096" layer="22" rot="MR0">3.3V</text>
-<text x="19.2" y="28.9" size="0.6096" layer="22" rot="MR0">GND</text>
-<text x="27.3" y="40.2" size="0.6096" layer="22" rot="MR0">publiclab.org/wiki/riffleito</text>
-<text x="25.8" y="32.5" size="0.6096" layer="22" rot="MR0">CERN OHL v1.2</text>
-<text x="16.9" y="28.9" size="0.6096" layer="22" rot="MR0">A0</text>
-<text x="28.3" y="32.4" size="0.6096" layer="22" rot="MR0">SCL</text>
+<text x="24" y="28.8" size="0.6096" layer="22" rot="MR0">SDA</text>
+<text x="21.7" y="28.8" size="0.6096" layer="22" rot="MR0">3.3V</text>
+<text x="19.1" y="28.9" size="0.6096" layer="22" rot="MR0">GND</text>
+<text x="27.2" y="38.7" size="0.6096" layer="22" rot="MR0">publiclab.org/wiki/riffleito</text>
+<text x="27.2" y="39.6" size="0.6096" layer="22" rot="MR0">CERN OHL v1.2</text>
+<text x="16.8" y="28.9" size="0.6096" layer="22" rot="MR0">A0</text>
+<text x="26" y="29" size="0.6096" layer="22" rot="MR0">SCL</text>
+<circle x="24.8" y="41.4" radius="0.282840625" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Sensors">
@@ -551,11 +548,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="15.035" y="42" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="SJ1" library="mike-temp" package="SJ_3_PASTE1&amp;2&amp;3" value="" x="18.54" y="36.75" smashed="yes" rot="MR180">
-<attribute name="NAME" x="17.97" y="35.48" size="0.4064" layer="26" rot="MR180"/>
+<attribute name="NAME" x="20.42" y="36.07" size="0.4064" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="17.27" y="38.655" size="0.4064" layer="28" rot="MR180"/>
 </element>
 <element name="R1" library="SparkFun-Passives" package="0603-RES" value="4.7K" x="24.95" y="35.61" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.101" y="34.812" size="0.4064" layer="25" font="vector"/>
+<attribute name="NAME" x="24.901" y="33.412" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="23.807" y="36.626" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R2" library="SparkFun-Passives" package="0603-RES" value="4.7K" x="14.81" y="36.25" smashed="yes">
@@ -571,9 +568,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="27.051" y="37.566" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="25.164" y="36.049" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="RL" library="SparkFunNew" package="PHOTOCELL" value="PHOTOCELL" x="20.9" y="34.6"/>
+<element name="RL" library="SparkFunNew" package="PHOTOCELL" value="PHOTOCELL" x="20.9" y="34.6" smashed="yes">
+<attribute name="NAME" x="20.5" y="34.2" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="18.9" y="31.6" size="0.8128" layer="27"/>
+</element>
 <element name="R3" library="rcl" package="R0805" value="10K" x="15.1" y="33.8" smashed="yes">
-<attribute name="NAME" x="17.93" y="34.465" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="17.83" y="33.465" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="14.465" y="31.26" size="1.27" layer="27"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="1X05" value="" x="26" y="31.1" smashed="yes" rot="R180">
