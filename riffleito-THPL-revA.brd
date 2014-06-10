@@ -131,7 +131,7 @@
 <text x="24" y="28.8" size="0.6096" layer="22" rot="MR0">SDA</text>
 <text x="21.7" y="28.8" size="0.6096" layer="22" rot="MR0">3.3V</text>
 <text x="19.1" y="28.9" size="0.6096" layer="22" rot="MR0">GND</text>
-<text x="27.2" y="38.7" size="0.6096" layer="22" rot="MR0">publiclab.org/wiki/riffleito</text>
+<text x="27.2" y="38.7" size="0.6096" layer="22" rot="MR0">publiclab.org/wiki/riffle</text>
 <text x="27.2" y="39.6" size="0.6096" layer="22" rot="MR0">CERN OHL v1.2</text>
 <text x="16.8" y="28.9" size="0.6096" layer="22" rot="MR0">A0</text>
 <text x="26" y="29" size="0.6096" layer="22" rot="MR0">SCL</text>
