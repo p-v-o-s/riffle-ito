@@ -1,0 +1,12 @@
+"Part";"Value";"Device";"Package";"Description";"";
+"D2";"GREEN";"LED0805";"CHIPLED_0805";"LED";"";
+"D3";"RED";"LED0805";"CHIPLED_0805";"LED";"";
+"JP1";"";"M07";"1X07";"Header 7";"";
+"JP5";"";"M07";"1X07";"Header 7";"";
+"RRST";"1K";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";
+"RRST1";"10K";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";
+"RRST2";"10K";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";
+"SJ1";"SOLDERJUMPERNC";"SOLDERJUMPERNC";"SJ_2S";"Solder Jumper";"";
+"TP1";"RSSI";"TEST-POINT3X5";"PAD.03X.05";"";"";
+"TP2";"ON";"TEST-POINT3X5";"PAD.03X.05";"";"";
+"U4";"XBEE-1B3";"XBEE-1B3";"XBEE-SMD";"";"";

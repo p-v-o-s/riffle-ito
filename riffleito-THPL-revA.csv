@@ -1,0 +1,11 @@
+"Part";"Value";"Device";"Package";"Description";"";
+"C1";"10u";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";
+"C6";".1u";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";
+"JP1";"";"M05PTH";"1X05";"Header 5";"";
+"R1";"4.7K";"RESISTOR0603-RES";"0603-RES";"Resistor";"";
+"R2";"4.7K";"RESISTOR0603-RES";"0603-RES";"Resistor";"";
+"R3";"10K";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";
+"RL";"PHOTOCELL";"PHOTOCELLPTH";"PHOTOCELL";"Photocell Also known as a CdS photoresistor. This is a low cost way to detect light levels. Resistance decreases with more incoming light. SparkFun SKU: SEN-09088";"";
+"SJ1";"";"SOLDERJUMPER_2WAYPASTE1&2&3";"SJ_3_PASTE1&2&3";"Solder Jumper";"";
+"U1";"BMP180";"BMP180";"BMP180";"BOSCH BMP180 DIGITAL BAROMETRIC PRESSURE SENSOR";"";
+"U2";"SHT21";"SEN-SENSIRION-SHT2X";"SEN-SENSIRION-SHT2X";"";"";
