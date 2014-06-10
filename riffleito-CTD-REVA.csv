@@ -1,0 +1,6 @@
+"Part";"Value";"Device";"Package";"Description";"";
+"C1";"100 nF";"CAP0402-CAP";"0402-CAP";"Capacitor";"";
+"JP2";"";"M05PTH";"1X05";"Header 5";"";
+"MS5803";"MS5803-14BA";"MS5803-14BA";"MS5803-14BA";"";"";
+"R1";"10K";"RESISTOR0402-RES";"0402-RES";"Resistor";"";
+"R3";"10K";"RESISTOR0402-RES";"0402-RES";"Resistor";"";
