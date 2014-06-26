@@ -10886,7 +10886,7 @@ if drains too much power</text>
 </instance>
 <instance part="P+4" gate="VCC" x="-156.21" y="1.27"/>
 <instance part="P+10" gate="VCC" x="-140.97" y="1.27"/>
-<instance part="SENSE" gate="G$1" x="-51.816" y="-7.366" rot="R180"/>
+<instance part="SENSE" gate="G$1" x="-51.308" y="-7.366" rot="R180"/>
 <instance part="FTDI" gate="G$1" x="-73.914" y="93.98" rot="R180"/>
 <instance part="RAD" gate="G$1" x="176.53" y="93.98" rot="R180"/>
 <instance part="P+3" gate="VCC" x="153.67" y="91.186"/>
@@ -10947,12 +10947,6 @@ if drains too much power</text>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="-92.202" y1="15.748" x2="-88.9" y2="15.748" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="-56.896" y1="-9.906" x2="-67.056" y2="-9.906" width="0.1524" layer="91"/>
-<wire x1="-67.056" y1="-9.906" x2="-67.056" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-70.358" y="-10.16" size="1.778" layer="95"/>
-<pinref part="SENSE" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="148.59" y1="-11.43" x2="148.59" y2="-13.97" width="0.1524" layer="91"/>
@@ -11050,6 +11044,11 @@ if drains too much power</text>
 <label x="194.31" y="88.9" size="1.778" layer="95" rot="R180"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
+<segment>
+<wire x1="-56.388" y1="-2.286" x2="-67.564" y2="-2.286" width="0.1524" layer="91"/>
+<label x="-69.596" y="-1.524" size="1.778" layer="95"/>
+<pinref part="SENSE" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="A0" class="0">
 <segment>
@@ -11058,10 +11057,10 @@ if drains too much power</text>
 <label x="66.04" y="62.23" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-56.896" y1="-12.446" x2="-69.342" y2="-12.446" width="0.1524" layer="91"/>
-<wire x1="-69.342" y1="-12.446" x2="-69.342" y2="-11.938" width="0.1524" layer="91"/>
-<label x="-73.152" y="-12.446" size="1.778" layer="95"/>
-<pinref part="SENSE" gate="G$1" pin="5"/>
+<wire x1="-56.388" y1="-9.906" x2="-67.056" y2="-9.906" width="0.1524" layer="91"/>
+<wire x1="-67.056" y1="-9.906" x2="-67.056" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-70.358" y="-10.16" size="1.778" layer="95"/>
+<pinref part="SENSE" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -11122,11 +11121,12 @@ if drains too much power</text>
 <pinref part="REMOTE" gate="A" pin="D"/>
 <wire x1="-78.232" y1="15.748" x2="-80.01" y2="15.748" width="0.1524" layer="91"/>
 <wire x1="-80.01" y1="15.748" x2="-81.28" y2="15.748" width="0.1524" layer="91"/>
-<wire x1="-80.01" y1="15.748" x2="-80.01" y2="-7.366" width="0.1524" layer="91"/>
-<wire x1="-80.01" y1="-7.366" x2="-56.896" y2="-7.366" width="0.1524" layer="91"/>
+<wire x1="-80.01" y1="15.748" x2="-80.01" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-80.01" y="15.748"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<pinref part="SENSE" gate="G$1" pin="3"/>
+<pinref part="SENSE" gate="G$1" pin="6"/>
+<wire x1="-80.01" y1="-15.24" x2="-56.896" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-56.896" y1="-15.24" x2="-56.388" y2="-14.986" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="REMOTE" gate="A" pin="S"/>
@@ -11321,9 +11321,10 @@ if drains too much power</text>
 <label x="66.04" y="59.69" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-56.896" y1="-14.986" x2="-70.358" y2="-14.986" width="0.1524" layer="91"/>
-<label x="-74.93" y="-15.494" size="1.778" layer="95"/>
-<pinref part="SENSE" gate="G$1" pin="6"/>
+<wire x1="-56.388" y1="-12.446" x2="-69.342" y2="-12.446" width="0.1524" layer="91"/>
+<wire x1="-69.342" y1="-12.446" x2="-69.342" y2="-11.938" width="0.1524" layer="91"/>
+<label x="-73.152" y="-12.446" size="1.778" layer="95"/>
+<pinref part="SENSE" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -11456,11 +11457,6 @@ if drains too much power</text>
 </net>
 <net name="SDA" class="0">
 <segment>
-<wire x1="-56.896" y1="-4.826" x2="-67.056" y2="-4.826" width="0.1524" layer="91"/>
-<label x="-70.866" y="-4.318" size="1.778" layer="95"/>
-<pinref part="SENSE" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="PC4(ADC4/SDA)"/>
 <wire x1="62.23" y1="52.07" x2="67.056" y2="52.07" width="0.1524" layer="91"/>
 <label x="67.818" y="51.816" size="1.778" layer="95"/>
@@ -11480,13 +11476,13 @@ if drains too much power</text>
 <wire x1="-140.97" y1="-11.43" x2="-140.97" y2="-12.954" width="0.1524" layer="91"/>
 <label x="-140.208" y="-16.256" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SENSE" gate="G$1" pin="3"/>
+<wire x1="-56.388" y1="-7.366" x2="-66.802" y2="-7.366" width="0.1524" layer="91"/>
+<label x="-71.882" y="-7.366" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL" class="0">
-<segment>
-<wire x1="-56.896" y1="-2.286" x2="-67.564" y2="-2.286" width="0.1524" layer="91"/>
-<label x="-69.596" y="-1.524" size="1.778" layer="95"/>
-<pinref part="SENSE" gate="G$1" pin="1"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC5(ADC5/SCL)"/>
 <wire x1="62.23" y1="49.53" x2="66.802" y2="49.53" width="0.1524" layer="91"/>
@@ -11506,6 +11502,11 @@ if drains too much power</text>
 <pinref part="I2C1" gate="G$1" pin="2"/>
 <wire x1="-156.21" y1="-11.43" x2="-156.21" y2="-13.716" width="0.1524" layer="91"/>
 <label x="-154.94" y="-15.748" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SENSE" gate="G$1" pin="2"/>
+<wire x1="-56.388" y1="-4.826" x2="-67.564" y2="-4.826" width="0.1524" layer="91"/>
+<label x="-72.644" y="-4.826" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RTC_BATT" class="0">
