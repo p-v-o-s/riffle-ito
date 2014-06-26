@@ -126,9 +126,9 @@
 <board>
 <plain>
 <wire x1="0.5842" y1="-0.0254" x2="0.5842" y2="17.9832" width="0" layer="20"/>
-<wire x1="0.5842" y1="17.9832" x2="69.3166" y2="18.0086" width="0" layer="20"/>
-<wire x1="69.3166" y1="18.0086" x2="69.3166" y2="0" width="0" layer="20"/>
-<wire x1="69.3166" y1="0" x2="0.5842" y2="-0.0254" width="0" layer="20"/>
+<wire x1="0.5842" y1="17.9832" x2="69.2404" y2="18.0086" width="0" layer="20"/>
+<wire x1="69.2404" y1="18.0086" x2="69.2404" y2="0" width="0" layer="20"/>
+<wire x1="69.2404" y1="0" x2="0.5842" y2="-0.0254" width="0" layer="20"/>
 <text x="4.2418" y="5.0038" size="0.6096" layer="21" rot="R90">ldo</text>
 <text x="29.8196" y="13.3604" size="0.6096" layer="21" rot="R270">EEPROM</text>
 <text x="36.1696" y="1.651" size="1.27" layer="21" rot="R180">riffle-ito</text>
