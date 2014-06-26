@@ -10815,7 +10815,7 @@ if drains too much power</text>
 <attribute name="VALUE" x="78.486" y="99.949" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="X1" gate="G$1" x="10.16" y="41.91" rot="R270"/>
-<instance part="P+11" gate="G$1" x="-21.59" y="77.47"/>
+<instance part="P+11" gate="G$1" x="-19.812" y="77.47"/>
 <instance part="C7" gate="G$1" x="-29.21" y="62.23" smashed="yes" rot="R90">
 <attribute name="NAME" x="-31.496" y="60.071" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-31.496" y="57.531" size="1.778" layer="96"/>
@@ -11113,7 +11113,7 @@ if drains too much power</text>
 <wire x1="78.994" y1="110.744" x2="78.994" y2="113.03" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-21.59" y1="77.47" x2="-21.59" y2="74.93" width="0.1524" layer="91"/>
+<wire x1="-19.812" y1="77.47" x2="-21.59" y2="74.93" width="0.1524" layer="91"/>
 <pinref part="P+11" gate="G$1" pin="3.3V"/>
 <pinref part="RRST" gate="G$1" pin="1"/>
 </segment>
@@ -11527,11 +11527,6 @@ if drains too much power</text>
 <pinref part="IC1" gate="G$1" pin="PD5(T1)"/>
 <wire x1="62.23" y1="26.67" x2="70.104" y2="26.67" width="0.1524" layer="91"/>
 <label x="67.056" y="26.924" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="-13.716" y1="-40.64" x2="-13.716" y2="-40.386" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="0">
