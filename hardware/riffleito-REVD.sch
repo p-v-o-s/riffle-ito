@@ -11607,9 +11607,9 @@ if drains too much power</text>
 <instance part="REMOTE" gate="A" x="-72.898" y="15.748" rot="MR270"/>
 <instance part="GND2" gate="1" x="-94.742" y="15.748" rot="R270"/>
 <instance part="P+2" gate="VCC" x="-62.484" y="18.288"/>
-<instance part="C8" gate="G$1" x="-87.122" y="16.002" smashed="yes" rot="R90">
-<attribute name="NAME" x="-87.503" y="17.526" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-84.201" y="22.098" size="1.778" layer="96" rot="R270"/>
+<instance part="C8" gate="G$1" x="-87.884" y="15.748" smashed="yes" rot="R90">
+<attribute name="NAME" x="-88.265" y="17.272" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-84.963" y="21.844" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="RTC" gate="G$1" x="133.35" y="-12.7"/>
 <instance part="BAT" gate="G$1" x="158.75" y="-15.748" smashed="yes" rot="R270">
@@ -11739,7 +11739,7 @@ if drains too much power</text>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="-92.202" y1="15.748" x2="-89.662" y2="16.002" width="0.1524" layer="91"/>
+<wire x1="-92.202" y1="15.748" x2="-90.424" y2="15.748" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -12371,6 +12371,9 @@ if drains too much power</text>
 <pinref part="JP4" gate="G$1" pin="7"/>
 <wire x1="-79.502" y1="-18.034" x2="-55.88" y2="-18.034" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="-18.034" x2="-55.88" y2="-17.526" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="-79.502" y1="15.748" x2="-82.804" y2="15.748" width="0.1524" layer="91"/>
+<junction x="-79.502" y="15.748"/>
 </segment>
 </net>
 </nets>
