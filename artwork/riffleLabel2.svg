@@ -32,9 +32,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="-1082.0903"
-     inkscape:cy="314.7652"
+     inkscape:zoom="3.959798"
+     inkscape:cx="489.08696"
+     inkscape:cy="262.42373"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -83,7 +83,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -470,30 +470,6 @@
          id="tspan7770-9-8-9-1"
          x="515.43939"
          y="780.00879">0 to 14</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.47455454px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="443.40182"
-       y="787.79144"
-       id="text7768-3-4-2-8-6-2"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan7770-1-1-3-6-3-1"
-         x="443.40182"
-         y="787.79144"
-         style="font-weight:bold;-inkscape-font-specification:Sans Bold">Optical Measurements</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.47455454px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="448.27286"
-       y="795.08704"
-       id="text7768-3-4-2-3-3-4"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan7770-1-1-3-1-8-8"
-         x="448.27286"
-         y="795.08704"
-         style="font-weight:normal;-inkscape-font-specification:Sans">Photodiode Response (nm)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.47455454px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1236,7 +1212,7 @@
          id="tspan7770-1-1-3-6-3-1-7"
          x="444.00778"
          y="970.18585"
-         style="font-weight:bold;-inkscape-font-specification:Sans Bold">Optical Measurements</tspan></text>
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold">Optical Measurements (nm)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.47455454px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1248,7 +1224,7 @@
          id="tspan7770-1-1-3-1-8-8-2"
          x="448.87881"
          y="977.48145"
-         style="font-weight:normal;-inkscape-font-specification:Sans">Photodiode Response (nm)</tspan></text>
+         style="font-weight:normal;-inkscape-font-specification:Sans">Photodiode Response</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.47455454px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1450,5 +1426,29 @@
          x="272.96942"
          y="1019.7784"
          style="font-size:8.86736488px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Junction;-inkscape-font-specification:Junction">publiclab.org</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.47455454px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="443.15854"
+       y="787.80579"
+       id="text7768-3-4-2-8-6-2-5-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7770-1-1-3-6-3-1-7-1"
+         x="443.15854"
+         y="787.80579"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold">Optical Measurements (nm)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.47455454px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="448.02957"
+       y="795.10138"
+       id="text7768-3-4-2-3-3-4-3-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7770-1-1-3-1-8-8-2-4"
+         x="448.02957"
+         y="795.10138"
+         style="font-weight:normal;-inkscape-font-specification:Sans">Photodiode Response</tspan></text>
   </g>
 </svg>
