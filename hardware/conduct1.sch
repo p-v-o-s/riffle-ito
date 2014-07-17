@@ -5656,19 +5656,25 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="3.3k"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="J1" library="SparkFunNew" deviceset="AYZ0202" device=""/>
-<part name="CSD2" library="resistor" deviceset="C-EU" device="C0805" value="1uF"/>
+<part name="C7" library="resistor" deviceset="C-EU" device="C0805" value="1uF"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="CSD3" library="resistor" deviceset="C-EU" device="C0805" value=".1uF"/>
+<part name="C6" library="resistor" deviceset="C-EU" device="C0805" value=".1uF"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="IC1" library="SparkFun-AnalogIC" deviceset="LMV358" device="SOICT"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="20K"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="IC2" library="SparkFun-AnalogIC" deviceset="LMV358" device="SOICT"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="GND8" library="SparkFun" deviceset="GND" device=""/>
+<part name="P+3" library="supply1" deviceset="VCC" device=""/>
+<part name="C2" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="GND9" library="SparkFun" deviceset="GND" device=""/>
+<part name="P+4" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5692,16 +5698,16 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <attribute name="NAME" x="72.136" y="106.426" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="76.454" y="105.156" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="JP1" gate="G$1" x="86.868" y="83.312" rot="R90"/>
+<instance part="JP1" gate="G$1" x="86.868" y="82.296" rot="R90"/>
 <instance part="J1" gate="G$1" x="107.188" y="108.966" smashed="yes">
 <attribute name="NAME" x="104.648" y="117.094" size="1.778" layer="95"/>
 </instance>
-<instance part="CSD2" gate="G$1" x="120.904" y="105.156" smashed="yes" rot="R90">
-<attribute name="NAME" x="120.523" y="96.52" size="1.778" layer="95" rot="R90"/>
+<instance part="C7" gate="G$1" x="120.904" y="105.156" smashed="yes" rot="R90">
+<attribute name="NAME" x="121.285" y="98.552" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="123.317" y="102.362" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND5" gate="1" x="130.048" y="105.156" rot="R90"/>
-<instance part="CSD3" gate="G$1" x="120.904" y="110.49" smashed="yes" rot="R90">
+<instance part="C6" gate="G$1" x="120.904" y="110.49" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.031" y="113.792" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="123.063" y="118.364" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -5722,11 +5728,23 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <instance part="IC2" gate="G1" x="96.012" y="140.208" rot="R90"/>
 <instance part="GND4" gate="1" x="103.632" y="140.208" rot="R90"/>
 <instance part="P+2" gate="VCC" x="86.614" y="140.208" rot="R90"/>
-<instance part="R7" gate="G$1" x="81.534" y="122.174" smashed="yes">
-<attribute name="NAME" x="82.55" y="125.73" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="84.328" y="120.142" size="1.778" layer="96" rot="R180"/>
+<instance part="R7" gate="G$1" x="71.882" y="122.174" smashed="yes">
+<attribute name="NAME" x="72.898" y="125.73" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="74.676" y="120.142" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND7" gate="1" x="73.152" y="122.174" rot="R270"/>
+<instance part="GND7" gate="1" x="61.214" y="122.174" rot="R270"/>
+<instance part="C4" gate="G$1" x="144.78" y="93.472" smashed="yes" rot="R180">
+<attribute name="NAME" x="141.478" y="93.599" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="148.336" y="93.345" size="1.778" layer="96"/>
+</instance>
+<instance part="GND8" gate="1" x="144.78" y="88.392"/>
+<instance part="P+3" gate="VCC" x="144.78" y="101.346"/>
+<instance part="C2" gate="G$1" x="17.526" y="85.852" smashed="yes" rot="R180">
+<attribute name="NAME" x="14.224" y="85.979" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="21.082" y="85.725" size="1.778" layer="96"/>
+</instance>
+<instance part="GND9" gate="1" x="17.526" y="80.772"/>
+<instance part="P+4" gate="VCC" x="17.526" y="93.726"/>
 </instances>
 <busses>
 </busses>
@@ -5753,12 +5771,12 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CSD3" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="127.508" y1="110.49" x2="125.984" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CSD2" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="127.508" y1="105.156" x2="125.984" y2="105.156" width="0.1524" layer="91"/>
 </segment>
@@ -5774,7 +5792,15 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="75.692" y1="122.174" x2="76.454" y2="122.174" width="0.1524" layer="91"/>
+<wire x1="63.754" y1="122.174" x2="66.802" y2="122.174" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5812,11 +5838,11 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="79.756" y1="107.696" x2="84.328" y2="107.696" width="0.1524" layer="91"/>
-<wire x1="84.328" y1="107.696" x2="84.328" y2="90.932" width="0.1524" layer="91"/>
+<wire x1="84.328" y1="107.696" x2="84.328" y2="89.916" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="86.868" y1="107.696" x2="86.868" y2="90.932" width="0.1524" layer="91"/>
+<wire x1="86.868" y1="107.696" x2="86.868" y2="89.916" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -5828,12 +5854,12 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <pinref part="J1" gate="G$1" pin="6"/>
 <wire x1="115.316" y1="105.156" x2="115.316" y2="101.346" width="0.1524" layer="91"/>
 <wire x1="115.316" y1="101.346" x2="112.268" y2="101.346" width="0.1524" layer="91"/>
-<pinref part="CSD2" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="118.364" y1="105.156" x2="115.316" y2="105.156" width="0.1524" layer="91"/>
 <junction x="115.316" y="105.156"/>
 </segment>
 </net>
-<net name="VBAT" class="0">
+<net name="DIO-DISCHARGE" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
 <pinref part="J1" gate="G$1" pin="5"/>
@@ -5846,8 +5872,11 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <pinref part="IC2" gate="G1" pin="-IN1"/>
 <junction x="93.472" y="107.696"/>
 <wire x1="93.472" y1="122.174" x2="93.472" y2="132.588" width="0.1524" layer="91"/>
-<wire x1="93.472" y1="122.174" x2="86.614" y2="122.174" width="0.1524" layer="91"/>
+<wire x1="93.472" y1="122.174" x2="81.28" y2="122.174" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="122.174" x2="76.962" y2="122.174" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="122.174" x2="81.28" y2="128.524" width="0.1524" layer="91"/>
+<label x="71.628" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -5860,7 +5889,7 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <wire x1="113.538" y1="106.426" x2="112.268" y2="106.426" width="0.1524" layer="91"/>
 <wire x1="113.538" y1="110.49" x2="118.364" y2="110.49" width="0.1524" layer="91"/>
 <junction x="113.538" y="110.49"/>
-<pinref part="CSD3" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="EC_OUT" class="0">
