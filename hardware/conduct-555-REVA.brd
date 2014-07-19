@@ -576,7 +576,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="555" library="SparkFun-AnalogIC" package="SO08@1" value="NE555D" x="10.414" y="14.732" rot="R270"/>
 <element name="J2" library="SparkFunNew" package="AYZ0202" value="AYZ0202" x="10.16" y="4.318" rot="R270"/>
 <element name="C1" library="resistor" package="C0805" value="1uF" x="18.542" y="8.128" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.256" y="9.525" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="16.256" y="9.271" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="16.256" y="9.017" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C2" library="resistor" package="C0805" value=".1uF" x="22.352" y="8.128" smashed="yes" rot="R270">
@@ -721,14 +721,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.209" y1="8.89" x2="22.352" y2="8.89" width="0.2032" layer="1"/>
 <wire x1="20.574" y1="9.652" x2="21.209" y2="8.89" width="0.2032" layer="1"/>
 <wire x1="18.542" y1="8.763" x2="20.574" y2="9.652" width="0.2032" layer="16"/>
-<wire x1="16.383" y1="7.747" x2="18.542" y2="8.763" width="0.2032" layer="16"/>
-<wire x1="13.97" y1="4.064" x2="16.383" y2="7.747" width="0.2032" layer="1"/>
+<wire x1="15.748" y1="7.366" x2="18.542" y2="8.763" width="0.2032" layer="16"/>
+<wire x1="13.97" y1="4.064" x2="15.748" y2="7.366" width="0.2032" layer="1"/>
 <wire x1="13.97" y1="2.794" x2="13.97" y2="4.064" width="0.2032" layer="1"/>
 <wire x1="13.208" y1="2.032" x2="13.97" y2="2.794" width="0.2032" layer="1"/>
 <wire x1="22.352" y1="8.89" x2="22.352" y2="8.978" width="0.2032" layer="1"/>
 <wire x1="13.208" y1="2.032" x2="12.985" y2="1.818" width="0.2032" layer="1"/>
 <via x="20.574" y="9.652" extent="1-16" drill="0.3302"/>
-<via x="16.383" y="7.747" extent="1-16" drill="0.3302"/>
+<via x="15.748" y="7.366" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="VCC">
 <contactref element="555" pad="8"/>
