@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -5713,13 +5713,13 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="3.3K"/>
-<part name="J-THRM" library="adafruit" deviceset="1X2" device="-3.5MM"/>
+<part name="THRM" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M07" device=""/>
-<part name="J-EC" library="adafruit" deviceset="1X2" device="-3.5MM"/>
+<part name="EC" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="C5" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
@@ -5748,7 +5748,7 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <attribute name="VALUE" x="101.854" y="31.623" size="1.778" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="98.298" y="26.67"/>
-<instance part="P+4" gate="VCC" x="98.298" y="39.624"/>
+<instance part="P+4" gate="VCC" x="98.298" y="40.386"/>
 <instance part="555" gate="G$1" x="98.806" y="57.404"/>
 <instance part="J2" gate="G$1" x="40.132" y="63.754" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.672" y="55.626" size="1.778" layer="95" rot="R180"/>
@@ -5774,7 +5774,7 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <attribute name="NAME" x="68.326" y="50.8" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.04" y="46.99" size="1.778" layer="96"/>
 </instance>
-<instance part="J-THRM" gate="G$1" x="151.384" y="80.772" rot="R180"/>
+<instance part="THRM" gate="G$1" x="151.384" y="80.772" rot="R180"/>
 <instance part="P+3" gate="VCC" x="66.04" y="42.672" rot="R90"/>
 <instance part="P+5" gate="VCC" x="160.02" y="93.472"/>
 <instance part="R2" gate="G$1" x="160.02" y="64.77" smashed="yes" rot="R90">
@@ -5783,26 +5783,26 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 </instance>
 <instance part="GND2" gate="1" x="160.02" y="54.356"/>
 <instance part="JP4" gate="G$1" x="126.746" y="107.95" rot="R180"/>
-<instance part="J-EC" gate="G$1" x="81.534" y="80.772" rot="R90"/>
+<instance part="EC" gate="G$1" x="81.534" y="80.772" rot="R90"/>
 <instance part="P+1" gate="VCC" x="108.458" y="97.79" rot="R90"/>
 <instance part="C5" gate="G$1" x="197.104" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="193.802" y="81.407" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="200.66" y="81.153" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="197.104" y="76.2"/>
-<instance part="P+6" gate="VCC" x="197.104" y="89.154"/>
+<instance part="P+6" gate="VCC" x="197.104" y="89.662"/>
 <instance part="C6" gate="G$1" x="181.356" y="99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="178.054" y="99.187" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="184.912" y="98.933" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="181.356" y="93.98"/>
-<instance part="P+7" gate="VCC" x="181.356" y="106.934"/>
+<instance part="P+7" gate="VCC" x="181.356" y="107.188"/>
 <instance part="C7" gate="G$1" x="201.93" y="101.092" smashed="yes" rot="R180">
 <attribute name="NAME" x="198.628" y="101.219" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="205.486" y="100.965" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="201.93" y="96.012"/>
-<instance part="P+8" gate="VCC" x="201.93" y="108.966"/>
+<instance part="P+8" gate="VCC" x="201.93" y="109.474"/>
 <instance part="GND7" gate="1" x="108.966" y="115.57" rot="R180"/>
 <instance part="GND8" gate="1" x="64.262" y="99.06"/>
 <instance part="P+9" gate="VCC" x="70.358" y="114.3"/>
@@ -5878,7 +5878,7 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <junction x="45.212" y="65.024"/>
 <wire x1="81.534" y1="65.024" x2="81.534" y2="75.692" width="0.1524" layer="91"/>
 <junction x="81.534" y="65.024"/>
-<pinref part="J-EC" gate="G$1" pin="2"/>
+<pinref part="EC" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VDD2" class="0">
@@ -5916,6 +5916,7 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <wire x1="108.966" y1="62.484" x2="109.982" y2="62.484" width="0.1524" layer="91"/>
 <wire x1="109.982" y1="65.024" x2="117.094" y2="65.024" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
+<junction x="109.982" y="65.024"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -5924,7 +5925,7 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 </segment>
 <segment>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
-<pinref part="J-THRM" gate="G$1" pin="2"/>
+<pinref part="THRM" gate="G$1" pin="2"/>
 <wire x1="156.464" y1="80.772" x2="160.02" y2="80.772" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="80.772" x2="160.02" y2="90.932" width="0.1524" layer="91"/>
 </segment>
@@ -5937,6 +5938,26 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <wire x1="70.358" y1="111.76" x2="64.262" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+<wire x1="98.298" y1="37.846" x2="98.298" y2="36.83" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<wire x1="197.104" y1="87.122" x2="197.104" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="P+7" gate="VCC" pin="VCC"/>
+<wire x1="181.356" y1="104.648" x2="181.356" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="P+8" gate="VCC" pin="VCC"/>
+<wire x1="201.93" y1="106.934" x2="201.93" y2="106.172" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5954,19 +5975,20 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="78.994" y1="69.596" x2="73.914" y2="57.404" width="0.1524" layer="91"/>
 <junction x="73.914" y="57.404"/>
-<pinref part="J-EC" gate="G$1" pin="1"/>
+<pinref part="EC" gate="G$1" pin="1"/>
 <wire x1="78.994" y1="75.692" x2="78.994" y2="69.596" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="THRM" class="0">
 <segment>
-<pinref part="J-THRM" gate="G$1" pin="1"/>
+<pinref part="THRM" gate="G$1" pin="1"/>
 <wire x1="156.464" y1="78.232" x2="160.02" y2="78.232" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="78.232" x2="160.02" y2="72.39" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="72.39" x2="160.02" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="72.39" x2="173.736" y2="72.39" width="0.1524" layer="91"/>
 <label x="176.022" y="72.39" size="1.778" layer="95"/>
+<junction x="160.02" y="72.39"/>
 </segment>
 <segment>
 <wire x1="121.666" y1="110.49" x2="109.982" y2="110.49" width="0.1524" layer="91"/>
