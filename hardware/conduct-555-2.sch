@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -5739,7 +5739,7 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <sheet>
 <plain>
 <text x="165.862" y="85.09" size="1.778" layer="91">Thermistor</text>
-<text x="174.752" y="60.198" size="1.778" layer="91">R should match value for thermistor
+<text x="172.466" y="76.708" size="1.778" layer="91">R should match value for thermistor
 (i.e., 10K for 10K thermistor)</text>
 </plain>
 <instances>
@@ -5774,35 +5774,35 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <attribute name="NAME" x="68.326" y="50.8" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.04" y="46.99" size="1.778" layer="96"/>
 </instance>
-<instance part="THRM" gate="G$1" x="151.384" y="80.772" rot="R180"/>
+<instance part="THRM" gate="G$1" x="146.304" y="68.072" rot="R180"/>
 <instance part="P+3" gate="VCC" x="66.04" y="42.672" rot="R90"/>
 <instance part="P+5" gate="VCC" x="160.02" y="93.472"/>
-<instance part="R2" gate="G$1" x="160.02" y="64.77" smashed="yes" rot="R90">
-<attribute name="NAME" x="165.1" y="63.246" size="1.778" layer="95"/>
-<attribute name="VALUE" x="164.846" y="60.198" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="160.02" y="78.232" smashed="yes" rot="R90">
+<attribute name="NAME" x="164.084" y="79.502" size="1.778" layer="95"/>
+<attribute name="VALUE" x="163.83" y="76.454" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="160.02" y="54.356"/>
 <instance part="JP4" gate="G$1" x="126.746" y="107.95" rot="R180"/>
 <instance part="EC" gate="G$1" x="81.534" y="80.772" rot="R90"/>
 <instance part="P+1" gate="VCC" x="108.458" y="97.79" rot="R90"/>
-<instance part="C5" gate="G$1" x="197.104" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="193.802" y="81.407" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="200.66" y="81.153" size="1.778" layer="96"/>
+<instance part="C5" gate="G$1" x="195.072" y="98.298" smashed="yes" rot="R180">
+<attribute name="NAME" x="191.77" y="98.425" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="198.628" y="98.171" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="197.104" y="76.2"/>
-<instance part="P+6" gate="VCC" x="197.104" y="89.662"/>
-<instance part="C6" gate="G$1" x="181.356" y="99.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="178.054" y="99.187" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="184.912" y="98.933" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="195.072" y="93.218"/>
+<instance part="P+6" gate="VCC" x="195.072" y="106.68"/>
+<instance part="C6" gate="G$1" x="179.324" y="116.078" smashed="yes" rot="R180">
+<attribute name="NAME" x="176.022" y="116.205" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="182.88" y="115.951" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="181.356" y="93.98"/>
-<instance part="P+7" gate="VCC" x="181.356" y="107.188"/>
-<instance part="C7" gate="G$1" x="201.93" y="101.092" smashed="yes" rot="R180">
-<attribute name="NAME" x="198.628" y="101.219" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="205.486" y="100.965" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="179.324" y="110.998"/>
+<instance part="P+7" gate="VCC" x="179.324" y="124.206"/>
+<instance part="C7" gate="G$1" x="199.898" y="118.11" smashed="yes" rot="R180">
+<attribute name="NAME" x="196.596" y="118.237" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="203.454" y="117.983" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="201.93" y="96.012"/>
-<instance part="P+8" gate="VCC" x="201.93" y="109.474"/>
+<instance part="GND6" gate="1" x="199.898" y="113.03"/>
+<instance part="P+8" gate="VCC" x="199.898" y="126.492"/>
 <instance part="GND7" gate="1" x="108.966" y="115.57" rot="R180"/>
 <instance part="GND8" gate="1" x="64.262" y="99.06"/>
 <instance part="P+9" gate="VCC" x="70.358" y="114.3"/>
@@ -5837,11 +5837,6 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <wire x1="121.92" y1="52.324" x2="129.032" y2="52.324" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="59.69" x2="160.02" y2="56.896" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-</segment>
-<segment>
 <wire x1="121.666" y1="113.03" x2="108.966" y2="113.03" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -5861,6 +5856,12 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="160.02" y1="56.896" x2="160.02" y2="65.532" width="0.1524" layer="91"/>
+<pinref part="THRM" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="65.532" x2="151.384" y2="65.532" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N1" class="0">
@@ -5925,9 +5926,8 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 </segment>
 <segment>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
-<pinref part="THRM" gate="G$1" pin="2"/>
-<wire x1="156.464" y1="80.772" x2="160.02" y2="80.772" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="80.772" x2="160.02" y2="90.932" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="83.312" x2="160.02" y2="90.932" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="7"/>
@@ -5947,17 +5947,17 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
-<wire x1="197.104" y1="87.122" x2="197.104" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="195.072" y1="104.14" x2="195.072" y2="103.378" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
-<wire x1="181.356" y1="104.648" x2="181.356" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="179.324" y1="121.666" x2="179.324" y2="121.158" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
-<wire x1="201.93" y1="106.934" x2="201.93" y2="106.172" width="0.1524" layer="91"/>
+<wire x1="199.898" y1="123.952" x2="199.898" y2="123.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5981,19 +5981,18 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 </net>
 <net name="THRM" class="0">
 <segment>
-<pinref part="THRM" gate="G$1" pin="1"/>
-<wire x1="156.464" y1="78.232" x2="160.02" y2="78.232" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="78.232" x2="160.02" y2="72.39" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="72.39" x2="160.02" y2="69.85" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="72.39" x2="173.736" y2="72.39" width="0.1524" layer="91"/>
-<label x="176.022" y="72.39" size="1.778" layer="95"/>
-<junction x="160.02" y="72.39"/>
-</segment>
-<segment>
 <wire x1="121.666" y1="110.49" x2="109.982" y2="110.49" width="0.1524" layer="91"/>
 <label x="104.902" y="110.49" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="THRM" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="151.384" y1="68.072" x2="160.02" y2="68.072" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="68.072" x2="160.02" y2="73.152" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="68.072" x2="163.576" y2="68.072" width="0.1524" layer="91"/>
+<label x="165.1" y="68.072" size="1.778" layer="95"/>
+<junction x="160.02" y="68.072"/>
 </segment>
 </net>
 <net name="A1" class="0">
