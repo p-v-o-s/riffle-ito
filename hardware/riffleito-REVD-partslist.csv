@@ -8,7 +8,7 @@
 "C7";"0.1uF";"C-EUC0805";"C0805@1";"CAPACITOR, European symbol";"";"";"";"";
 "C8";".1u";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";
 "C10";".1u";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";
-"CRF";"100u";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";
+"CRF";".1u";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";
 "CSD";".1uF";"C-EUC0805";"C0805";"CAPACITOR, European symbol";"";"";"";"";
 "I2C1";"10K";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";
 "I2C2";"10K";"R-EU_R0805";"R0805";"RESISTOR, European symbol";"";"";"";"";
